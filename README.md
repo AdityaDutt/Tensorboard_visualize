@@ -2,7 +2,7 @@
 
 <img align="center" alt="siamnet" width= "800px" src="./tsne.gif?raw=True" />
 
-Visualizing data on tensorboard
+Visualize data on tensorboard
 
 Here is the tutorial for this code on medium: https://medium.com/@adityadutt/visualizing-your-deep-learning-features-using-tensorboard-8356ffd745e0
 
