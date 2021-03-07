@@ -1,6 +1,6 @@
 # Tensorboard_visualize
 
-### Visualizing data on tensorboard. 
+Visualizing data on tensorboard. 
 
 <img align="center" alt="siamnet" width= "800px" src="./tsne.gif?raw=True" />
 
