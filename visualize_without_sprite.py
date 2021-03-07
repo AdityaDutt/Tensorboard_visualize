@@ -66,13 +66,13 @@ def create_visualization(LOG_DIR, X , feature_vec, y_class) :
 
 
 
-
+'''
 # Read input data and feature vectors
 f = open(os.getcwd()+"/visualize_data.pkl", 'rb')
 X, y = pickle.load(f)
 f.close()
 
-# There are 3 classes in this case. Each class has 1450 samples. So, there are 1450*3 = 4350 samples in total.
+# There are 3 classes in my case. Each class has 1450 samples. So, there are 1450*3 = 4350 samples in total.
 num_samp = int(X.shape[0]/3)
 y_class = [0] * num_samp + [1] * num_samp + [2] * num_samp
 
@@ -82,3 +82,4 @@ y = np.copy(X)
 y = y.reshape((len(X), 28*28*3))
 
 create_visualization(LOG_DIR, X, y, y_class)
+'''
